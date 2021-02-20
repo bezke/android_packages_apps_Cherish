@@ -34,6 +34,14 @@
             android:title="@string/enable_oneui"
             android:summary="@string/enable_oneui_summary"
             android:defaultValue="true" />
+			
+	 <!-- OOS style material dismiss all button for notifications -->
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
+            android:key="notification_material_dismiss"
+            android:icon="@drawable/ic_notification_clear_all"
+            android:title="@string/notification_material_dismiss_button_title"
+            android:summary="@string/notification_material_dismiss_button_summary"
+            android:defaultValue="false" />
 
    <com.cherish.settings.preferences.SystemSettingMasterSwitchPreference
             android:key="status_bar_custom_header"
