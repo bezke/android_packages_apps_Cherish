@@ -19,13 +19,13 @@
     <PreferenceCategory
         android:title="@string/on_aod_title">
 
-        <com.cherish.support.preferences.SystemSettingSwitchPreference
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="sysui_keyguard_show_battery_bar"
             android:title="@string/keyguard_show_battery_title"
             android:summary="@string/keyguard_show_battery_summary"
             android:defaultValue="false" />
 
-        <com.cherish.support.preferences.SystemSettingSwitchPreference
+        <com.cherish.settings.preferences.SystemSettingSwitchPreference
             android:key="sysui_keyguard_show_battery_bar_always"
             android:title="@string/keyguard_show_battery_always_title"
             android:summary="@string/keyguard_show_battery_always_summary"
