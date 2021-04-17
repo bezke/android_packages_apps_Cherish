@@ -36,7 +36,7 @@
     <PreferenceCategory
         android:title="@string/keygaurd_battery_bar_color_title">
 
-        <com.cherish.support.preferences.SystemSettingListPreference
+        <com.cherish.settings.preferences.SystemSettingListPreference
             android:key="keygaurd_battery_bar_color_mode"
             android:title="@string/keyguard_battery_bar_color_modes_title"
             android:entries="@array/keygaurd_battery_bar_color_modes_entries"
@@ -44,7 +44,7 @@
             android:dependency="sysui_keyguard_show_battery_bar"
             android:defaultValue="0" />
 
-        <com.cherish.support.colorpicker.ColorPickerPreference
+       <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="keygaurd_battery_bar_color_custom"
             android:title="@string/keyguard_battery_bar_color_custom"
             android:defaultValue="0xffffffff"
